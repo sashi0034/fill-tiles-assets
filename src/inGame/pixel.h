@@ -9,7 +9,7 @@ namespace inGame::pixel{
 
     constexpr int DotByDot = 1;
 
-    constexpr int PixelPerUnit = 3;
+    constexpr int PixelPerUnit = 4;
 
     constexpr int PixelPerMat = 16;
 

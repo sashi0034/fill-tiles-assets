@@ -21,7 +21,7 @@ namespace gameEngine::renderingProcess
     void RenderSprite(IAppState* appState, SpriteTexture* renderingSpr, double baseScale);
     void RenderSpriteAlignToUnit(IAppState* appState, SpriteTexture* renderingSpr);
     void RenderSpriteDotByDot(IAppState* appState, SpriteTexture* renderingSpr);
-    void RenderSpriteTwoDots(IAppState* appState, SpriteTexture* renderingSpr);
+    // void RenderSpriteTwoDots(IAppState* appState, SpriteTexture* renderingSpr);
 
     std::function<void(IAppState*)> WrapRenderSpriteDotByDot(SpriteTexture* renderingSpr);
 }

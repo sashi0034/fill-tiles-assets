@@ -58,7 +58,7 @@ namespace gameEngine
         SpriteTexture::UpdateAll(this);
     }
 
-    constexpr int maxPixelInScreen = 1600 * 900;
+    constexpr int maxPixelInScreen = 1920 * 1080;
 
     void AppState::checkChangeWindowSize()
     {

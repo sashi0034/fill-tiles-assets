@@ -25,7 +25,7 @@ namespace inGame
         IMainScene* m_Scene;
         std::string m_Text;
 
-        static const inline Vec2<double> bgSize = Vec2<double>{144.0, 56.0};
+        static const inline Vec2<double> bgSize = Vec2<double>{128.0, 48.0};
         unique_ptr<NinePatchImage> m_Background;
         TextPassage m_TextPassage;
 
